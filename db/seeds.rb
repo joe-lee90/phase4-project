@@ -29,7 +29,7 @@ l3 = Listing.create(name: "Colonial",
                     image: "https://cdn.onekindesign.com/wp-content/uploads/2019/10/Traditional-Style-Home-Nor-Son-Custom-Builders-01-1-Kindesign.jpg", 
                     address: "2623 Logan Ave N, Minneapolis, MN, 55411",
                     price: 220,
-                    description: "A family estate built with love, this home features an open and spacious floor plan and ten-foot high ceilings. Ideally located just off the family room is a cozy and inviting screened-in porch with a fireplace. A vaulted wood ceiling and motorized phantom screens opens out to an expansive stone patio with exceptional views of the prairie-like setting. ")
+                    description: "A family estate built with love, this home features an open and spacious floor plan and ten-foot high ceilings. Ideally located just off the family room is a cozy and inviting screened-in porch with a fireplace. A vaulted wood ceiling and motorized phantom screens opens out to an expansive stone patio with exceptional views of the prairie-like setting.")
 
 l4 = Listing.create(name: "Villa", 
                     image: "https://pix10.agoda.net/hotelImages/290/290666/290666_14021507590018349604.jpg?ca=2&ce=1&s=1024x768", 
@@ -41,9 +41,9 @@ r1 = Review.create(user_id: joe.id, listing_id: l2.id, description: "Very calm a
 
 r2 = Review.create(user_id: joe.id, listing_id: l1.id, description: "Cool building, but can be a little cramped and impractical for long-term stay.")
 
-r1 = Review.create(user_id: chandy.id, listing_id: l4.id, description: "Beautiful, beautiful, beautiful!! Thank you for making my vacation so wonderful!")
+r3 = Review.create(user_id: chandy.id, listing_id: l4.id, description: "Beautiful, beautiful, beautiful!! Thank you for making my vacation so wonderful!")
 
-r1 = Review.create(user_id: nick.id, listing_id: l3.id, description: "Cozy house with a nice yard.")
+r4 = Review.create(user_id: nick.id, listing_id: l3.id, description: "Cozy house with a nice yard.")
 
                     
 puts "✅ Done seeding!"
