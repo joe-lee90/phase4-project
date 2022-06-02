@@ -1,6 +1,12 @@
 .header {
     display: flex;
     /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    top: 0;
+    background-color: lightslategray;
+    z-index: 100;
+    width: 100%;
 }
 
 .header_center {
@@ -10,5 +16,5 @@
 
 .header_right {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
