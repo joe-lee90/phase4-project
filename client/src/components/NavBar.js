@@ -1,7 +1,7 @@
 import React from 'react'
-import'./Header.css'
+import'./NavBar.css'
 
-function Header() {
+export default function NavBar() {
   return (
     <div className="header">
 
@@ -15,5 +15,3 @@ function Header() {
     </div>
   )
 }
-
-export default Header
